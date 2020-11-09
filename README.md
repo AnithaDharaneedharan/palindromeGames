@@ -23,3 +23,7 @@ http://localhost:3000/api/submitEntry to post the string and name
 
 ## Notes
 Error handling and tests(unit and integration) are written. 
+The in memory approach is done by creating an empty array and storing it in the models layer.
+Separation of concerns is followed.
+I have used regex for better performance , express-validator for minimum validation checks and JEST for testing
+
